@@ -41,7 +41,7 @@ async function start(): Promise<void> {
 
     const port = 4000;
     httpServer.listen({ port }, () =>
-        console.log(`🚀 Hello the server ready at http://localhost:${port}`)
+        console.log(`🚀 Hello the server is ready at http://localhost:${port}`)
     );
 }
 
